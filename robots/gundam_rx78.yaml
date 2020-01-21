@@ -1,6 +1,16 @@
 head:
   - head_neck_y: head-neck-y
   - head_neck_p: head-neck-p
+torso:
+  - torso_waist_y: torso-waist-y
+  - torso_waist_p: torso-waist-p
+  - torso_waist_p2: torso-waist-p2
+torso_rthrust:
+  - torso_rthrust_p: torso-rthrust-p
+  - torso_rthrust_r: torso-rthrust-r
+torso_lthrust:
+  - torso_lthrust_p: torso-lthrust-p
+  - torso_lthrust_r: torso-lthrust-r
 larm:
   - larm_shoulder_p: larm-shoulder-p
   - larm_shoulder_r: larm-shoulder-r
@@ -19,13 +29,33 @@ rarm:
   - rarm_wrist_y: rarm-wrist-y
   - rarm_wrist_r: rarm-wrist-r
   - rarm_gripper: rarm-gripper
+lleg:
+  - lleg_crotch_p: lleg-crotch-p
+  - lleg_crotch_r: lleg-crotch-r
+  - lleg_crotch_y: lleg-crotch-y
+  - lleg_knee_p: lleg-knee-p
+  - lleg_knee_p2: lleg-knee-p2
+  - lleg_ankle_p: lleg-ankle-p
+  - lleg_ankle_r: lleg-ankle-r
+rleg:
+  - rleg_crotch_p: rleg-crotch-p
+  - rleg_crotch_r: rleg-crotch-r
+  - rleg_crotch_y: rleg-crotch-y
+  - rleg_knee_p: rleg-knee-p
+  - rleg_knee_p2: rleg-knee-p2
+  - rleg_ankle_p: rleg-ankle-p
+  - rleg_ankle_r: rleg-ankle-r
 
 angle-vector:
-  reset-pose : [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,]
+  reset-pose : [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
 
+head-end-coords:
+  parent : rx78_Null_014_link
 larm-end-coords:
   parent : rx78_Null_062_link
 rarm-end-coords:
   parent : rx78_Null_056_link
-head-end-coords:
-  parent : rx78_Null_014_link
+lleg-end-coords:
+  parent: rx78_Null_041_link
+rleg-end-coors:
+  parent: rx78_Null_091_link
