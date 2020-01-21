@@ -1,0 +1,31 @@
+head:
+  - head_neck_y: head-neck-y
+  - head_neck_p: head-neck-p
+larm:
+  - larm_shoulder_p: larm-shoulder-p
+  - larm_shoulder_r: larm-shoulder-r
+  - larm_shoulder_y: larm-shoulder-y
+  - larm_elbow_p: larm-elbow-p
+  - larm_elbow_p2: larm-elbow-p2
+  - larm_wrist_y: larm-wrist-y
+  - larm_wrist_r: larm-wrist-r
+  - larm_gripper: larm-gripper
+rarm:
+  - rarm_shoulder_p: rarm-shoulder-p
+  - rarm_shoulder_r: rarm-shoulder-r
+  - rarm_shoulder_y: rarm-shoulder-y
+  - rarm_elbow_p: rarm-elbow-p
+  - rarm_elbow_p2: rarm-elbow-p2
+  - rarm_wrist_y: rarm-wrist-y
+  - rarm_wrist_r: rarm-wrist-r
+  - rarm_gripper: rarm-gripper
+
+angle-vector:
+  reset-pose : [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,]
+
+larm-end-coords:
+  parent : rx78_Null_062_link
+rarm-end-coords:
+  parent : rx78_Null_056_link
+head-end-coords:
+  parent : rx78_Null_014_link
