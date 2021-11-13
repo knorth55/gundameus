@@ -57,5 +57,5 @@ rarm-end-coords:
   parent : rx78_Null_056_link
 lleg-end-coords:
   parent: rx78_Null_041_link
-rleg-end-coors:
+rleg-end-coords:
   parent: rx78_Null_091_link
